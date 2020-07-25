@@ -26,6 +26,7 @@ class App extends Component {
   }
 
   componentWillUnmount(){
+    //unsbscribe method
     this.unSubscribeFromAuth()
   }
 
